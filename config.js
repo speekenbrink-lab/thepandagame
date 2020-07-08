@@ -6,7 +6,7 @@ config.debug = false;
 config.prolific = true;
 config.path = "/panda";
 config.port = "8077";
-config.local = true; // set to true for local game and to false for server games
+config.local = false; // set to true for local game and to false for server games
 config.local_server = "http://localhost:" + config.port;
 config.remote_server = "https://palsws07.psychlangsci.ucl.ac.uk";
 
