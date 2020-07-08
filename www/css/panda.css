@@ -1,0 +1,69 @@
+table {
+border-collapse: collapse;
+border: 1px solid black;
+}
+th, td {
+padding:0px;
+}
+
+/* IE10 */
+progress {
+color: #fc00ed;
+height: 20px;
+}
+
+/* Firefox */
+progress::-moz-progress-bar {
+background: #fc00ed;
+height: 20px;
+}
+
+/* Chrome */
+progress::-webkit-progress-value {
+background: #fc00ed;
+height: 20px;
+}
+
+/* Polyfill */
+progress[aria-valuenow]:before {
+background: #fc00ed;
+height: 20px;
+}
+
+progress {
+-webkit-appearance: none;
+appearance: none;
+}
+
+progress::-webkit-progress-bar {
+background-color: white;
+}
+
+progress[value] {
+-webkit-appearance: none;
+appearance: none;
+}
+
+progress[value]::-webkit-progress-value {
+border-radius: 1px;
+background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+progress {
+color: lightgrey;
+}
+
+progress::-webkit-progress-value {
+background: lightgrey;
+}
+
+progress::-moz-progress-bar {
+background: lightcolor;
+}
+
+progress::-webkit-progress-value {
+background: #fc00ed;
+}
+
+progress::-webkit-progress-bar {
+background: lightgrey;
+}
